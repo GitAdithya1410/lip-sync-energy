@@ -11,7 +11,7 @@ This outputs a lip-synced animation video.
 Built with OpenCV, Librosa, MoviePy, and ONNX-based background removal.
 
 
-Features
+## Features
 - Energy-based lip movement engine (no transcript needed)
 - Auto background removal using ONNX Runtime
 - Supports transparent PNG characters
@@ -19,7 +19,7 @@ Features
 - Full video rendering with audio
 - Customizable phoneme sets (A, E, O, U, M, L, TH, W/Q, Neutral)
 
-Project Structure
+## Project Structure
 lip-sync/
 │
 ├── assets/
@@ -34,7 +34,7 @@ lip-sync/
 ├── LICENSE
 └── README.md
 
-How It Works
+## How It Works
 1. Loads transparent character
 2. Removes background (if needed)
 3. Reads audio → splits into tiny frames
@@ -43,15 +43,15 @@ How It Works
 6. Combines frames into a video
 7. Adds audio back to final output
 
-Installation
+## Installation
 1. Clone the repo
 2. Create venv
 3. Install requirements
 
-#Usage
+## Usage
 python main.py
 
-#requirements.txt
+## requirements.txt
 opencv-python
 numpy
 moviepy
@@ -60,7 +60,17 @@ onnxruntime
 rembg
 soundfile
 
-#.gitignore
+## Outputs:
+final_output.mp4
+
+
+## Make sure:
+assets/character.png exists
+assets/mouth_shapes/*.png exist
+audio.wav exists
+
+
+## .gitignore
 venv/
 __pycache__/
 *.mp4
