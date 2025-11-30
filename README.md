@@ -26,7 +26,7 @@ lip-sync/
 │   ├── mouth_shapes/
 │   ├── character.png
 │   ├── background.png
-│   └── model.onnx
+│   
 │
 ├── main.py
 ├── requirements.txt
