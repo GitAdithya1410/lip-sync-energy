@@ -9,3 +9,18 @@ This system takes:
 This outputs a lip-synced animation video.
 
 Built with OpenCV, Librosa, MoviePy, and ONNX-based background removal.
+
+
+Features
+
+	Energy-based lip movement engine (no transcript needed)
+	
+	Auto background removal using ONNX Runtime
+	
+	Supports transparent PNG characters
+	
+	Smooth alpha blending for mouth overlays
+	
+	Full video rendering with audio
+	
+	Customizable phoneme sets (A, E, O, U, M, L, TH, W/Q, Neutral)
