@@ -1,0 +1,8 @@
+opencv-python
+numpy
+moviepy
+librosa
+onnxruntime
+rembg
+soundfile
+
