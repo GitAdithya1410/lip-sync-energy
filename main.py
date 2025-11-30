@@ -13,7 +13,7 @@ ASSETS_DIR = "assets"
 BACKGROUND_PATH = os.path.join(ASSETS_DIR, "background.png")   # or .jpg
 CHARACTER_PATH = os.path.join(ASSETS_DIR, "character_old.png")
 MOUTH_DIR = os.path.join(ASSETS_DIR, "mouth_shapes")
-AUDIO_PATH = "audio3.wav"                                       # put your audio here
+AUDIO_PATH = "audio3.wav"                                       #  audio 
 
 FPS = 30
 MOUTH_POSITION = (1065, 1050)      # top-left of mouth on character (x, y)
@@ -22,7 +22,7 @@ MOUTH_TARGET_WIDTH = 340           # resize all mouths to this width in pixels
 OUTPUT_VIDEO_NO_AUDIO = "output_no_audio.mp4"
 FINAL_OUTPUT_VIDEO = "final_output.mp4"
 
-# phoneme to file mapping - only the ones you actually have will be used
+# phoneme to file mapping 
 PHONEME_TO_FILE = {
     "A": "A.png",
     "E": "E.png",
@@ -291,3 +291,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
