@@ -71,4 +71,3 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-## This project is released under the CC BY-NC License: you may use and modify the code for personal and non-commercial purposes with proper attribution.
